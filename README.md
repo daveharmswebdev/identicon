@@ -1,4 +1,6 @@
 # Identicon
+This app creates identicons from strings.
+Following along with Udemy Elixir Tutorial
 
 **TODO: Add description**
 
