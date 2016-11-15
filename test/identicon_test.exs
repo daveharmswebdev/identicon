@@ -11,4 +11,9 @@ defmodule IdenticonTest do
   	hash_2 = Identicon.main("banana")
   	assert hash_1 == hash_2
   end
+
+  test "mirror row" do
+  	mirrored_row = Identicon.mirror_row([145, 46, 200])
+  	assert mirrored_row == [145, 46, 200, 46, 145]
+  end
 end
